@@ -37,3 +37,4 @@ print(get_day_from_text("Thursday"))
 print(get_day_from_text("Friday"))
 print(get_day_from_text("Saturday"))
 print(get_day_from_text("Sunday"))
+
