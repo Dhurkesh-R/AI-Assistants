@@ -1,0 +1,112 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what should this spidey do for you?",
+          "Hi there,do you know where's tobey ? Anyways, how can I help you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "offers",
+        "patterns": ["any offers?", "What about offers", "Can I get some offers"],
+        "responses": ["Happy to help, If you are Ironman fan 40% off!", "For spidey fans 50% off!", "Cap fans get a shield for free!"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "Can I buy something?",
+          "What items do you have?",
+          "Show me your products",
+          "Do you have anything to buy?",
+          "What things are available?"
+        ],
+        "responses": [
+          "I sell web shooters and spider bikes",
+          "If you buy two bikes you get a web shooter for free!"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Can I trade with you?"
+        ],
+        "responses": [
+          "I only accept SpiderVISA, Spidercard and SpiderPay(JK : Just Kidding)    Yeah, I accept cash, trading, credit cards, Mastercards and also online apps like paypal"   ,
+          "I accept credit cards, Mastercards and also online apps like paypal  I accept trading also, Ex: 1 IronMan suit == 4 spider bikes"
+        ]
+      },
+      {
+        "tag": "purchase",
+        "patterns": [
+          "I want to buy this",
+          "I want to buy the web shooter",
+          "I want to buy the bike",
+          "How can I buy the web shooter?",
+          "How can I purchase the Spider-bike?"
+        ],
+        "responses": [
+          "Great choice! Would you like to apply any offers before you checkout?",
+          "Awesome! You can pay via credit card, PayPal, or even trade some items. Let me know how you'd like to proceed.",
+          "Nice pick! To finalize your purchase, just let me know if you want any discounts or offers!",
+          "Let’s make this official! Would you like to apply any offers first?"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "What about delivery",
+          "What about shipping",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Spider-Drone Delivery takes 2-4 minutes",
+          "Spider-Van Shipping takes 10-20 minutes"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the Ironman burn his mouth? He drank the coffee before it was cool. I miss him a lot....",
+          "What did the buffalo say when his son left for college? Bison (Bye son)."
+        ]
+      },
+      {
+        "tag": "fallback",
+        "patterns": [],
+        "responses": ["I'm sorry, could you rephrase?", "I didn't get that. Can you ask differently?"]
+      }      
+    ]
+  }
